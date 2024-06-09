@@ -30,8 +30,8 @@ st.markdown(
     - Check out our [research](https://daviddrabold.com/research/)
     - Jump into our [publications](https://daviddrabold.com/publications/)
     - Enjoy some cool animations on our [YouTube](https://youtube.com/playlist?list=PLkk5oFUpZDlbSOc7lLYdTramEX_Y3jx8m&si=UIAPj_2G2cCTeaUH) channel.
-    # ### Check out other MTG-OU apps
-    # - This [streamlit app](https://porous-carbon-constructor.streamlit.app/) (also included here 👈) constructs atomistic porous carbon models which 
-    #   can be converted to continuum models for finite element simulation. See the associated publication here.
+    ### Previously deployed MTG-OU apps
+    - This [streamlit app](https://porous-carbon-constructor.streamlit.app/) (also included here 👈) constructs atomistic porous carbon models which 
+      can be converted to continuum models for finite element simulation. See the associated publications in [[1]](http://people.ohio.edu/drabold/pubs/253.pdf) and [[2](http://people.ohio.edu/drabold/pubs/261.pdf)].
     """)
 
