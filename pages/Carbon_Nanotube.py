@@ -118,7 +118,7 @@ density = st.session_state.density
 col1, col2 = st.columns(2)      
         
 with col1:
-    st.markdown("##### Generate Multi-Walled Carbon Nanotubes")
+    st.markdown("##### Generate Multi-Walled CNT")
     st.write(f"The denisty of the CNT (no vacuum) is {density:.2f} g/cm$^3$.")
             
 
