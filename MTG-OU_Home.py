@@ -10,10 +10,10 @@ import plotly.express as px
 #amorphous graphite, multi-shell fullerenes and carbon nanotubes
 
 st.set_page_config(
-    page_title="MTG-OU",
+    page_title="MTG-OhioU",
     page_icon="https://chinonsougwumadu.com/wp-content/uploads/2024/05/microsoftteams-image-17.jpg")
 
-st.write("## Welcome to the MTG-OU App Center 👋")
+st.write("## Welcome to the MTG-OhioU App Center 👋")
 
 st.sidebar.success("Select a constructor above.")
 logo_url = "https://chinonsougwumadu.com/wp-content/uploads/2024/05/microsoftteams-image-17.jpg"
