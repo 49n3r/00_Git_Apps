@@ -21,16 +21,16 @@ st.sidebar.image(logo_url)
 
 st.markdown(
     """
-    This app collection, designed by the Materials Theory Group - Ohio University (MTG-OU), constructs 
+    This app collection, designed by the Materials Theory Group - Ohio University (MTG-OhioU), constructs 
     initial models for molecular dynamics (MD) simulation of different carbon structures including
     amorphous graphite, multi-shell fullerenes, multi-walled carbon nanotubes, and porous carbon.
 
     **👈 Select a constructor from the sidebar** to build your initial models for MD simulations!
-    ### Want to learn more about MTG-OU?
+    ### Want to learn more about MTG-OhioU?
     - Check out our [research](https://daviddrabold.com/research/)
     - Jump into our [publications](https://daviddrabold.com/publications/)
     - Enjoy some cool animations on our [YouTube](https://youtube.com/playlist?list=PLkk5oFUpZDlbSOc7lLYdTramEX_Y3jx8m&si=UIAPj_2G2cCTeaUH) channel.
-    ### Previously deployed MTG-OU apps
+    ### Previously deployed MTG-OhioU apps
     - This [streamlit app](https://porous-carbon-constructor.streamlit.app/) (also included here 👈) constructs atomistic porous carbon models which 
       can be converted to continuum models for finite element simulation. See the associated publications in [[1]](http://people.ohio.edu/drabold/pubs/253.pdf) and [[2](http://people.ohio.edu/drabold/pubs/261.pdf)].
     """)
