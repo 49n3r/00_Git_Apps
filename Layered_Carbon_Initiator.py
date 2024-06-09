@@ -33,6 +33,5 @@ st.markdown(
     # ### Check out other MTG-OU apps
     # - This [streamlit app](https://porous-carbon-constructor.streamlit.app/) (also included here 👈) constructs atomistic porous carbon models which 
     #   can be converted to continuum models for finite element simulation. See the associated publication here.
-"""
-)
+    """)
 
