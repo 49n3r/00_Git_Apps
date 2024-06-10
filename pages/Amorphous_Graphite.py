@@ -69,7 +69,7 @@ def boxSize(density):
     volume = total_mass / density
 
     box_cm = volume**(1/3) #(cm)
-    ##convert box lenght  in cm to armstrong
+    ##convert box length  in cm to armstrong
     box_arm = box_cm/1e-8
     return box_arm, volume
 
@@ -87,7 +87,7 @@ with col1:
     if st.button('Generate Model', key="generateButton",on_click=disable, args=(False,)):
         with col1:
             
-            st.write(f"The box lenght for {st.session_state.num_atoms} C atoms is {st.session_state.box:.2f} \u212B")
+            st.write(f"The box length for {st.session_state.num_atoms} C atoms is {st.session_state.box:.2f} \u212B")
 
 
         ######################## Amorphous C constructor Algorithm starts here ####################################################
