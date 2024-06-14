@@ -36,7 +36,7 @@ def disable(b):
 st.sidebar.number_input("Number of Atoms:", min_value=60, value=1000, step = 50, key="num_atoms",on_change=disable, args=(False,), help="The number of C atoms required")
 st.sidebar.number_input("Density [g/cm$^3$]:", min_value=1.4, max_value = 2.8, value = 2.26, step = 0.02, key="density",on_change=disable, args=(False,), help ="The density of the fullerene model")
 st.sidebar.slider("Carbon Bonds Initial Cutoff [\u212B]", min_value=1.0,max_value=1.4, step = 0.1, value =1.2, key='cutoff',on_change=disable, args=(False,), help="C-C cutoff, 1.2 \u212B is a good choice")
-st.sidebar.slider("3D Vaccum [\u212B]", min_value=3.0,max_value=8.0, step = 0.2, value =6.0, key='vacuum',on_change=disable, args=(False,), help="Vacuum added to all 3 dimensions.\n 6 \u212B is a good choice")
+st.sidebar.slider("3D Vacuum [\u212B]", min_value=3.0,max_value=8.0, step = 0.2, value =6.0, key='vacuum',on_change=disable, args=(False,), help="Vacuum added to all 3 dimensions.\n 6 \u212B is a good choice")
 
 # You can access the value at any point with:
 
