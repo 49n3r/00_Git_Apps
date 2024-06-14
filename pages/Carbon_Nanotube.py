@@ -55,7 +55,7 @@ r_min, r_val, r_max = getRadiusRange()
 
 st.sidebar.slider("Radius [cm]:", min_value=r_min, value = r_val, max_value =r_max, step = 0.05, key="radius",on_change=disable, args=(False,), help ="The radius of the CNT")
 st.sidebar.slider("Carbon Bonds Initial Cutoff [\u212B]", min_value=1.0,max_value=1.4, step = 0.1, value =1.2, key='cutoff',on_change=disable, args=(False,), help="C-C cutoff, 1.2 \u212B is a good choice")
-st.sidebar.slider("XY Plane Vaccum [\u212B]", min_value=3.0,max_value=8.0, step = 0.2, value =6.0, key='vacuum',on_change=disable, args=(False,), help="Vacuum added to XY plane.\n3\u212B is a good choice")
+st.sidebar.slider("XY Plane Vacuum [\u212B]", min_value=3.0,max_value=8.0, step = 0.2, value =6.0, key='vacuum',on_change=disable, args=(False,), help="Vacuum added to XY plane.\n3\u212B is a good choice")
 
 # You can access the value at any point with:
 
