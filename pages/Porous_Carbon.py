@@ -33,7 +33,7 @@ def disable(b):
 
 ## Initialize Data
 st.sidebar.number_input("Number of Atoms:", min_value=500, step = 50, key="num_atoms",on_change=disable, args=(True,), help="The number of C atoms required")
-st.sidebar.number_input("Foam Density [g/cm$^3$]:", min_value=0.05, value = 0.5, step = 0.05, key="density",on_change=disable, args=(True,), help ="The desired foam density")
+st.sidebar.number_input("Foam True Density [g/cm$^3$]:", min_value=0.05, value = 0.5, step = 0.05, key="density",on_change=disable, args=(True,), help ="The desired foam density")
 st.sidebar.number_input("Number of Pores:", min_value=1, value = 25, step=1, key="num_pores",on_change=disable, args=(True,), help="The number of pores required")
 st.sidebar.slider("Porosity:", min_value=0.0,max_value=1.0, value =0.5, key='porosity',on_change=disable, args=(True,), help="Desired porosity of the model")
 st.sidebar.slider("Maximum Pore Size", min_value=0.01,max_value=0.99, value =0.5, key='max_pore_size',on_change=disable, args=(True,), help="For example, 0.5 will be half the box lenght")
