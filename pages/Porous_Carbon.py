@@ -20,7 +20,7 @@ st.markdown(
 
     > Associated Publications:
     - [Self-assembly and the properties of micro-mesoporous carbon](http://people.ohio.edu/drabold/pubs/253.pdf), J. Chem. Theory Comput., 20, 4 (2024). 
-   
+    - [Atomistic-to-Continuum Modeling of Carbon Foam: A New Approach to Finite Element Simulation](https://dx.doi.org/10.2139/ssrn.4877456), \textit{under review in Carbon}. 
     """
 )
 
