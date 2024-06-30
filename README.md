@@ -1,0 +1,1 @@
+This app collection, designed by the Materials Theory Group - Ohio University (MTG-OhioU), constructs initial models for molecular dynamics (MD) simulation of different carbon structures including amorphous graphite, multi-shell fullerenes, multi-walled carbon nanotubes, and porous carbon.
