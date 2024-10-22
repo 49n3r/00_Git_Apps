@@ -35,7 +35,7 @@ def disable(b):
 
 ## Initialize Data
 st.sidebar.number_input("Number of Atoms:", min_value=60, value=1000, step = 50, key="num_atoms",on_change=disable, args=(False,), help="The number of C atoms required")
-st.sidebar.number_input("Density [g/cm$^3$]:", min_value=2.0, max_value = 2.8, value = 2.44, step = 0.02, key="density",on_change=disable, args=(False,), help ="The desired density of the model")
+st.sidebar.number_input("Density [g/cm$^3$]:", min_value=2.0, max_value = 4.0, value = 2.44, step = 0.02, key="density",on_change=disable, args=(False,), help ="The desired density of the model")
 st.sidebar.slider("Carbon Bonds Initial Cutoff [\u212B]", min_value=1.0,max_value=1.4, step = 0.1, value =1.2, key='cutoff',on_change=disable, args=(False,), help="C-C cutoff, 1.2 \u212B is a good choice")
 
 
